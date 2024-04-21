@@ -44,7 +44,6 @@ export class GameManager {
                     game.makeMove(socket, message.move);
                 }
             }
-
         })
     }
 }
