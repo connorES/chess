@@ -8,14 +8,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='h-screen bg-slate-900'>
      <BrowserRouter>
       <Routes>
         <Route path="/"  element={<Landing />} />
         <Route path="/game"  element={<Game />} />
       </Routes>
     </BrowserRouter>
-    </>
+    </div>
   )
 }
 
