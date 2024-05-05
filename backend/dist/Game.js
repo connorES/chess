@@ -25,6 +25,7 @@ class Game {
         }));
     }
     makeMove(player, move) {
+        console.log(move);
         if (this.moveCount % 2 === 0 && player !== this.player1) {
             return;
         }

@@ -35,6 +35,7 @@ export class Game {
         from: string,
         to: string
     }){
+        console.log(move)   
         if(this.moveCount % 2 === 0 && player !== this.player1){
             return;
         }
